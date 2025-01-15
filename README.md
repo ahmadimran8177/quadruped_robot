@@ -1,98 +1,53 @@
-# DIY Arduino Quadruped Robot
+# DIY Quadruped Robot
 
 A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.
 
-![Quadruped Robot](robot-image-placeholder.jpg)
+![Quadruped Robot](assets/robot.jpg)
 
 ## Features
 
 - 8-DOF quadruped design (2 servos per leg)
-- Wireless control through ESP32 access point
+- Wireless control through ESP32 wifi access point
 - Obstacle detection using ultrasonic sensor
 - Custom PCB design for component integration
-- Arduino Nano-based control system
+- Arduino based control system
 - Lightweight and modular construction
-
-## Prerequisites
 
 ### Hardware Components
 
 - 1× Arduino Nano
 - 1× ESP32 development board
-- 8× SG90 servo motors (or compatible)
+- 8× MG90 servo motors (or compatible)
 - 1× HC-SR04 ultrasonic sensor
-- 1× Custom PCB (Gerber files provided)
-- Chassis components (laser-cut or 3D printed)
+- 1× Custom Circuit Board and electronic components (Diagram provided)
+- Chassis components (laser-cut or 3D printed - files available in assets dir)
 - M3 screws and nuts
-- Jumper wires
 - LiPo battery (7.4V recommended)
-- Servo power supply module
-
-### Tools Required
-
-- Soldering iron and solder
-- Screwdriver set
-- Wire strippers
-- Hot glue gun
-- Basic electronic tools
-
-### Software Requirements
-
-- Arduino IDE
-- Required Libraries:
-  - Servo.h
-  - ESP32WiFi.h
-  - NewPing.h
-
-## Assembly Instructions
-
-### 1. Chassis Assembly
-
-1. Cut or 3D print the chassis components using provided files
-2. Assemble the base frame using M3 screws
-3. Attach servo motors to each leg mount point
-4. Secure the leg segments to servo horns
-
-### 2. Electronics Assembly
-
-1. Solder components to the custom PCB:
-   - Arduino Nano headers
-   - ESP32 headers
-   - Servo connectors
-   - Power distribution
-2. Connect servo motors to designated ports
-3. Mount ultrasonic sensor at the front
-4. Install power supply module
 
 ### 3. Wiring Guide
 
 ```
-Arduino Nano Connections:
-- D2-D9: Servo control signals
-- D10: Ultrasonic TRIG
-- D11: Ultrasonic ECHO
-- A4: SDA (ESP32 communication)
-- A5: SCL (ESP32 communication)
-
-ESP32 Connections:
-- GPIO21: SDA
-- GPIO22: SCL
-- GPIO16: Status LED
+(Arduino) Microcontroller Connections:
+- D2-D9 : Servo control signals
+- A3    : Ultrasonic TRIG
+- A2    : Ultrasonic ECHO
+- TX    : Esp32 RX
+- RX    : Esp32 TX
 ```
 
 ## Software Setup
 
 1. Install Arduino IDE and required libraries
 2. Upload provided code:
-   - `quadruped_control.ino` to Arduino Nano
-   - `esp32_wireless.ino` to ESP32
+   - `main_controller.ino` to Arduino Nano
+   - `remote_controller.ino` to ESP32
 
 ### Initial Configuration
 
 ```cpp
 // WiFi credentials in esp32_wireless.ino
-const char* ssid = "QuadrupedBot";
-const char* password = "robotics123";
+const char* ssid = "Custom_Wifi_Name";
+const char* password = "Custom_Password";
 ```
 
 ## Usage
@@ -103,8 +58,9 @@ const char* password = "robotics123";
 4. Available commands:
    - Forward/Backward movement
    - Left/Right turns
-   - Stand/Sit positions
+   - Increase/Decrease Speed
    - Obstacle avoidance mode
+   - Wave/Bow/Dance
 
 ## Troubleshooting
 
@@ -132,7 +88,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## Acknowledgments
 
-- Inspired by various open-source robotics projects
+- Inspired by various open-source robotics projects and research papers
 - Thanks to the Arduino and ESP32 communities
 
 ## Project Status
@@ -141,4 +97,4 @@ Currently in active development. New features and improvements are welcome throu
 
 ## Contact
 
-For questions or suggestions, please open an issue in the repository.
+For questions or suggestions, please open an issue in the repository or message me from https://ahmadimran.com/contact

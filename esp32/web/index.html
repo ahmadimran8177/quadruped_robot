@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quadruped Robot Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* Paste CSS code here */
+    </style>
+  </head>
+  <body>
+    <h1>Quadruped Robot Control</h1>
+
+    <div class="movement-container">
+      <button
+        class="button movement-button forward"
+        onmousedown='startMovement("forward")'
+        onmouseup="stopMovement()"
+        onmouseleave="stopMovement()"
+        ontouchstart='startMovement("forward")'
+        ontouchend="stopMovement()"
+        ontouchcancel="stopMovement()"
+      >
+        Forward
+      </button>
+
+      <button
+        class="button movement-button backward"
+        onmousedown='startMovement("backward")'
+        onmouseup="stopMovement()"
+        onmouseleave="stopMovement()"
+        ontouchstart='startMovement("backward")'
+        ontouchend="stopMovement()"
+        ontouchcancel="stopMovement()"
+      >
+        Backward
+      </button>
+
+      <button
+        class="button movement-button left"
+        onmousedown='startMovement("left")'
+        onmouseup="stopMovement()"
+        onmouseleave="stopMovement()"
+        ontouchstart='startMovement("left")'
+        ontouchend="stopMovement()"
+        ontouchcancel="stopMovement()"
+      >
+        Left
+      </button>
+
+      <button
+        class="button movement-button right"
+        onmousedown='startMovement("right")'
+        onmouseup="stopMovement()"
+        onmouseleave="stopMovement()"
+        ontouchstart='startMovement("right")'
+        ontouchend="stopMovement()"
+        ontouchcancel="stopMovement()"
+      >
+        Right
+      </button>
+    </div>
+
+    <div class="additional-functions">
+      <button class="button" onclick='sendCommand("bow")'>Bow</button>
+      <button class="button" onclick='sendCommand("wave")'>Wave</button>
+      <button class="button" onclick='sendCommand("speedincrease")'>
+        Increase Speed
+      </button>
+      <button class="button" onclick='sendCommand("speeddecrease")'>
+        Decrease Speed
+      </button>
+      <button class="button" onclick='sendCommand("dance")'>Dance</button>
+      <button class="button" onclick='sendCommand("centerservos")'>
+        Center Servos
+      </button>
+      <button class="button" onclick='sendCommand("trimleft")'>
+        Trim Left
+      </button>
+      <button class="button" onclick='sendCommand("trimright")'>
+        Trim Right
+      </button>
+    </div>
+
+    <script>
+      // Paste JS code
+    </script>
+  </body>
+</html>
