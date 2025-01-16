@@ -13,13 +13,15 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - Arduino based control system
 - Lightweight and modular construction
 
+![Quadruped Robot](assets/movements.mp4)
+
 ### Hardware Components
 
 - 1× Arduino Nano
 - 1× ESP32 development board
 - 8× MG90 servo motors (or compatible)
 - 1× HC-SR04 ultrasonic sensor
-- 1× Custom Circuit Board and electronic components (Diagram provided)
+- Custom Circuit Board and electronic components (Diagram provided)
 - Chassis components (laser-cut or 3D printed - files available in assets dir)
 - M3 screws and nuts
 - LiPo battery (7.4V recommended)
