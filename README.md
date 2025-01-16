@@ -46,6 +46,11 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - TX    : Esp32 RX
 - RX    : Esp32 TX
 ```
+## Circuit Board
+
+| FrontSide | BackSide |
+|-|-|
+| ![mePed V2 demo mode](assets/board.JPG) | ![Another implementation](assets/circuit-down.JPG) |
 
 ## Software Setup
 
