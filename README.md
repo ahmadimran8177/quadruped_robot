@@ -13,7 +13,7 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - Arduino based control system
 - Lightweight and modular construction
 
-![Quadruped Robot](assets/movements.mp4)
+![Quadruped Robot](https://github.com/user-attachments/assets/e2fe24ff-f899-499b-b720-a08f1ef405ee)
 
 ### Hardware Components
 
