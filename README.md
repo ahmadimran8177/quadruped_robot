@@ -2,7 +2,9 @@
 
 A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.
 
-![Quadruped Robot](assets/robot.jpg)
+<div align="center">
+  <img src="assets/robot.jpg" width="640" alt="Quadruped Robot">
+</div>
 
 ## Features
 
@@ -13,7 +15,11 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - Arduino based control system
 - Lightweight and modular construction
 
-![Quadruped Robot](https://github.com/user-attachments/assets/e2fe24ff-f899-499b-b720-a08f1ef405ee)
+<div align="center">
+  <video width="640" autoplay loop muted playsinline>
+    <source src="https://github.com/user-attachments/assets/e2fe24ff-f899-499b-b720-a08f1ef405ee" type="video/mp4">
+  </video>
+</div>
 
 ### Hardware Components
 
@@ -69,6 +75,7 @@ const char* password = "Custom_Password";
 Common issues and solutions:
 
 1. Erratic servo movement
+
    - Check power supply voltage
    - Verify servo connections
    - Calibrate servo positions in code
