@@ -15,12 +15,18 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - Arduino based control system
 - Lightweight and modular construction
 
-<div align="center">
-  <video width="500" src="https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4" autoplay loop muted playsinline>
-  </video>
+<br/>
+
+## Videos
+
+| Quadruped Robot Movement |
+|-
+| <div align="center">
+  <a href="https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4"></a>
+  <img src="assets/robot.jpg" width="500" alt="Quadruped Robot">
 </div>
 
-![Quadruped Movements](https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4)
+<br/>
 
 ### Hardware Components
 
