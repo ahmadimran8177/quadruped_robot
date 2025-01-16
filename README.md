@@ -20,6 +20,8 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
   </video>
 </div>
 
+![Quadruped Movements](https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4)
+
 ### Hardware Components
 
 - 1× Arduino Nano
