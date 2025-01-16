@@ -1,6 +1,8 @@
-# DIY Quadruped Robot
+<div align = center>
 
-A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.
+# DIY Quadruped Robot
+A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.<br/>
+</div>
 
 <div align="center">
   <img src="assets/robot.jpg" width="500" alt="Quadruped Robot">
@@ -31,8 +33,8 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - 1× ESP32 development board
 - 8× MG90 servo motors (or compatible)
 - 1× HC-SR04 ultrasonic sensor
-- Custom Circuit Board and electronic components (Diagram provided)
-- Chassis components (laser-cut or 3D printed - files available in assets dir)
+- Custom Circuit Board and electronic components
+- Chassis components (laser-cut or 3D printed)
 - M3 screws and nuts
 - LiPo battery (7.4V recommended)
 
@@ -45,6 +47,7 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 - A2    : Ultrasonic ECHO
 - TX    : Esp32 RX
 - RX    : Esp32 TX
+- GND   : Esp32 GND
 ```
 ## Circuit Board
 
