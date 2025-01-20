@@ -10,7 +10,7 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 
 ## Features
 
-- 8-DOF quadruped design (2 servos per leg)
+- 8 DOF quadruped design (2 servos per leg)
 - Wireless control through ESP32 wifi access point
 - Obstacle detection using ultrasonic sensor
 - Custom PCB design for component integration
@@ -23,7 +23,7 @@ A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, fea
 
 | Quadruped Robot Movement |
 |-
-| <div align="center"><a href="https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4" target="_blank"><img src="assets/robot.jpg" width="500" alt="Quadruped Robot"></a></div><br/>
+| <div align="center"><a href="https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4" target="_blank"><img src="assets/thumbnail.jpeg" width="500" alt="Quadruped Robot"></a></div><br/>
 
 Click on the thumbnail to watch robot in action.
 
@@ -109,8 +109,8 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## Acknowledgments
 
-- Inspired by various open-source robotics projects and research papers
 - Thanks to the Arduino and ESP32 communities
+- Inspired by various open-source robotics projects and research papers (One of the research paper is present in assets dir)
 
 ## Project Status
 
