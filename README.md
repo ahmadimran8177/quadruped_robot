@@ -1,7 +1,7 @@
 <div align = center>
 
 # DIY Quadruped Robot
-A lightweight, affordable quadruped robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.<br/>
+A spider robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing capabilities. This project aims to provide an accessible entry point into robotics and programming through a DIY approach.<br/>
 </div>
 
 <div align="center">
@@ -110,7 +110,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 ## Acknowledgments
 
 - Thanks to the Arduino and ESP32 communities
-- Inspired by various open-source robotics projects and research papers (One of the research paper is present in assets dir)
+- Inspired by various open-source robotics projects and research papers (One of the research paper is present in assets Dir)
 
 ## Project Status
 
