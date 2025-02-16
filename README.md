@@ -23,7 +23,7 @@ A spider robot powered by Arduino Nano and ESP32, featuring ultrasonic sensing c
 
 | Quadruped Robot Movement |
 |-
-| <div align="center"><a href="https://ahmadimran8177.github.io/quadruped_robot/assets/movements.mp4" target="_blank"><img src="assets/thumbnail.jpeg" width="500" alt="Quadruped Robot"></a></div><br/>
+| <div align="center"><a href="https://www.youtube.com/shorts/Pe6NCr4o1K4" target="_blank"><img src="assets/thumbnail.jpeg" width="500" alt="Quadruped Robot"></a></div><br/>
 
 Click on the thumbnail to watch robot in action.
 
